@@ -1,8 +1,10 @@
-xenomai (2.6.4) UNRELEASED; urgency=low
+xenomai (2.6.4-1) UNRELEASED; urgency=low
 
   * New release
+  * Convert package to quilt format
+    - This changelog entry forgotten upstream
 
- -- Xenomai <xenomai@xenomai.org>  Tue, 31 Mar 2015 15:36:46 -0500
+ -- John Morris <john@dovetail-automata.com>  Tue, 31 Mar 2015 15:36:46 -0500
 
 xenomai (2.6.3) UNRELEASED; urgency=low
 
