@@ -18,26 +18,10 @@ Description: Xenomai runtime utilities
  kernel in order to provide a pervasive, interface-agnostic, hard real-time
  support to user-space applications, seamlessly integrated into the GNU/Linux
  environment. Xenomai provides its own API and emulation layers ("skins") to
- make migration from other RTOS easier. Examples are: pSOS+, VxWorks, VRTX,
- uiTRON, RTAI, POSIX.
+ make migration from other RTOS easier. Examples are: pSOS+, VxWorks, POSIX.
  .
  This package contains the runtime programs and the testsuite for the Xenomai
  realtime system.
-
-Package: xenomai-runtime-dbg
-Section: debug
-Architecture: amd64 arm armeb armel armhf i386 powerpc powerpcspe
-Depends: xenomai-runtime (=${binary:Version}), ${misc:Depends}
-Description: debugging symbols for Xenomai runtime utilities
- Xenomai is a real-time development framework cooperating with the Linux
- kernel in order to provide a pervasive, interface-agnostic, hard real-time
- support to user-space applications, seamlessly integrated into the GNU/Linux
- environment. Xenomai provides its own API and emulation layers ("skins") to
- make migration from other RTOS easier. Examples are: pSOS+, VxWorks, VRTX,
- uiTRON, RTAI, POSIX.
- .
- This package contains the debug symbols for the runtime programs and testsuite
- for Xenomai realtime system.
 
 Package: xenomai-kernel-source
 Section: kernel
@@ -49,8 +33,7 @@ Description: Source for Xenomai kernel-space support
  kernel in order to provide a pervasive, interface-agnostic, hard real-time
  support to user-space applications, seamlessly integrated into the GNU/Linux
  environment. Xenomai provides its own API and emulation layers ("skins") to
- make migration from other RTOS easier. Examples are: pSOS+, VxWorks, VRTX,
- uiTRON, RTAI, POSIX.
+ make migration from other RTOS easier. Examples are: pSOS+, VxWorks, POSIX.
  .
  This package contains sources for Xenomai kernel-space support - 
  These are intended for use with kernel-package and a virgin Linux
@@ -72,24 +55,9 @@ Description: Shared libraries for Xenomai
  kernel in order to provide a pervasive, interface-agnostic, hard real-time
  support to user-space applications, seamlessly integrated into the GNU/Linux
  environment. Xenomai provides its own API and emulation layers ("skins") to
- make migration from other RTOS easier. Examples are: pSOS+, VxWorks, VRTX,
- uiTRON, RTAI, POSIX.
+ make migration from other RTOS easier. Examples are: pSOS+, VxWorks, POSIX.
  .
  This package contains the shared libraries.
-
-Package: libxenomai1-dbg
-Section: debug
-Architecture: amd64 arm armeb armel armhf i386 powerpc powerpcspe
-Depends: libxenomai1 (=${binary:Version}), ${misc:Depends}
-Description: Debugging symbols for libxenomai1
- Xenomai is a real-time development framework cooperating with the Linux
- kernel in order to provide a pervasive, interface-agnostic, hard real-time
- support to user-space applications, seamlessly integrated into the GNU/Linux
- environment. Xenomai provides its own API and emulation layers ("skins") to
- make migration from other RTOS easier. Examples are: pSOS+, VxWorks, VRTX,
- uiTRON, RTAI, POSIX.
- .
- This package contains the debug symbols for libxenomai1.
 
 Package: libxenomai-dev
 Section: libdevel
@@ -103,8 +71,7 @@ Description: Headers and static libs for Xenomai
  kernel in order to provide a pervasive, interface-agnostic, hard real-time
  support to user-space applications, seamlessly integrated into the GNU/Linux
  environment. Xenomai provides its own API and emulation layers ("skins") to
- make migration from other RTOS easier. Examples are: pSOS+, VxWorks, VRTX,
- uiTRON, RTAI, POSIX.
+ make migration from other RTOS easier. Examples are: pSOS+, VxWorks, POSIX.
  .
  This package contains development files (header files), the static libraries
  and scripts used to compile realtime applications.
@@ -121,7 +88,6 @@ Description: Xenomai documentation
  kernel in order to provide a pervasive, interface-agnostic, hard real-time
  support to user-space applications, seamlessly integrated into the GNU/Linux
  environment. Xenomai provides its own API and emulation layers ("skins") to
- make migration from other RTOS easier. Examples are: pSOS+, VxWorks, VRTX,
- uiTRON, RTAI, POSIX.
+ make migration from other RTOS easier. Examples are: pSOS+, VxWorks, POSIX.
  .
  Documentation for Xenomai realtime API.

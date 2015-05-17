@@ -1,12 +1,16 @@
-xenomai (2.6.4-1) UNRELEASED; urgency=low
+xenomai (3.0rc4-1) UNRELEASED; urgency=low
 
-  * New release
-  * Convert package to quilt format
-    - This changelog entry forgotten upstream
+  * Update to 3.0rc4
 
- -- John Morris <john@dovetail-automata.com>  Tue, 31 Mar 2015 15:36:46 -0500
+ -- John Morris <john@dovetail-automata.com>  Sat, 16 May 2015 22:11:38 -0500
 
-xenomai (2.6.3) UNRELEASED; urgency=low
+xenomai (2.99.0) UNRELEASED; urgency=low
+
+  * Prepare Debian packaging for Xenomai-forge
+
+ -- Xenomai <xenomai@xenomai.org>  Wed, 20 Nov 2013 09:33:50 +0200
+
+xenomai (2.6.3) unstable; urgency=low
 
   * New release
 
