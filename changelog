@@ -1,6 +1,7 @@
 xenomai (3.0rc4-1) UNRELEASED; urgency=low
 
   * Update to 3.0rc4
+  * Add `autoreconf` command to `debian/rules` and fix build-deps
 
  -- John Morris <john@dovetail-automata.com>  Sat, 16 May 2015 22:11:38 -0500
 
