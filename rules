@@ -75,6 +75,9 @@ install: build
 	mkdir -p $(CURDIR)/debian/xenomai-kernel-source/usr/src/xenomai-kernel-source/config
 	cp config/version-* \
 	    $(CURDIR)/debian/xenomai-kernel-source/usr/src/xenomai-kernel-source/config
+	# xeno-config belongs in libxenomai-dev only
+	rm debian/xenomai-runtime/usr/bin/xeno-config \
+	    debian/xenomai-runtime/usr/share/man/man1/xeno-config.1
 
 # Build architecture-independent files here.
 binary-indep: build install
